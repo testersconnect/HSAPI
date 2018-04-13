@@ -32,7 +32,7 @@ public class AddContactsToCompany {
 		//ACT
 		String contactID=contactRes.getContactID(CONTACT_EMAIL);
 		//ADD Contact to Company
-		comE.addContactToCompany(contactID, "761230925");
+		comE.addContactToCompany(contactID, 761230925);
 
 		//ASSERT
 		//Get Contacts of the Company
