@@ -2,23 +2,19 @@ package com.testersconnect.api;
 
 import org.testng.annotations.Test;
 
-import com.testersconnect.reusables.CommonEntities;
-import com.testersconnect.reusables.CompanyReusables;
-import com.testersconnect.reusables.ContactReusables;
-
+import com.testersconnect.reusables.*;
 public class AddContactsToCompany {
 
 	ContactReusables contactRes=new ContactReusables();
 	CompanyReusables companyRes=new CompanyReusables();
 	CommonEntities comE=new CommonEntities();
-	
-	String CONTACT_EMAIL="hr1@testinghub.com";
-	String CONTACT_FIRST_NAME="John";
-	String CONTACT_LAST_NAME="Blake";
+	//Commment - Delete this
+	String CONTACT_EMAIL="hr23@testinghub.com";
+	String CONTACT_FIRST_NAME="John23";
+	String CONTACT_LAST_NAME="Blake23";
 	
 	String COMPANY_NAME="Testers Connect1";
 	String COMPANY_DESC="The Place for QA & DevOps";
-	
 	@Test
 	public void verifyAddContactsToCompany() {
 	
@@ -39,13 +35,16 @@ public class AddContactsToCompany {
 
 		//CLEAN UP
 		//Delete Contact
-		contactRes.deleteContact(contactID);
+		//contactRes.deleteContact(contactID);
 		
 		//Delete Company
-		companyRes.deleteCompany("761230925");
+		//companyRes.deleteCompany("761230925");
 	
 	
 	
 	}
+	
+	
+	
 	
 }

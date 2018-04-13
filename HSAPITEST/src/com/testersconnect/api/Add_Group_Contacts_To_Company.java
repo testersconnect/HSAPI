@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.testersconnect.reusables.CompanyReusables;
-import com.testersconnect.reusables.ContactReusables;
 import com.testersconnect.reusables.CommonEntities;
+import com.testersconnect.reusables.ContactReusables;
+import com.testersconnect.reusables.*;
 
 public class Add_Group_Contacts_To_Company {
 
@@ -38,6 +38,8 @@ public class Add_Group_Contacts_To_Company {
 			String response=ce.addContactToCompany(contactID, 761567126);
 			String res=ce.getContactOfCompany("761567126");
 			 Assert.assertEquals(res.contains(contactID),true);
+			 //clean-up
+		     contact.deleteContact(contactID);	 
 					}
 			
 		
