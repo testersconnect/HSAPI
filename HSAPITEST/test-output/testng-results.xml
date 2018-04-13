@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-13T05:43:02Z" name="Default suite" finished-at="2018-04-13T05:43:06Z" duration-ms="3953">
+    <groups>
+    </groups>
+    <test started-at="2018-04-13T05:43:02Z" name="Default test" finished-at="2018-04-13T05:43:06Z" duration-ms="3953">
+      <class name="com.testersconnect.api.AddContactsToCompany">
+        <test-method signature="verifyAddContactsToCompany()[pri:0, instance:com.testersconnect.api.AddContactsToCompany@19d481b]" started-at="2018-04-13T05:43:02Z" name="verifyAddContactsToCompany" finished-at="2018-04-13T05:43:06Z" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddContactsToCompany -->
+      </class> <!-- com.testersconnect.api.AddContactsToCompany -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
