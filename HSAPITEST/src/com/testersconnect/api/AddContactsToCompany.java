@@ -12,7 +12,7 @@ public class AddContactsToCompany {
 	CompanyReusables companyRes=new CompanyReusables();
 	CommonEntities comE=new CommonEntities();
 	
-	String CONTACT_EMAIL="hr2@testinghub.com";
+	String CONTACT_EMAIL="hr1@testinghub.com";
 	String CONTACT_FIRST_NAME="John";
 	String CONTACT_LAST_NAME="Blake";
 	
